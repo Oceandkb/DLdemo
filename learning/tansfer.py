@@ -18,6 +18,7 @@ print(type(y))
 #将大小为1的标量转换为python数值类型
 
 b = torch.tensor([True])
+# b = torch.arange(6).reshape(2, 3)
 
 by = b.item() #item()函数会根据tensor元素的类型去转换为对应的python标量类型x
 byf = float(b)
